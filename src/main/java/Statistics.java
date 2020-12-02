@@ -57,4 +57,19 @@ public class Statistics {
         }
         return projects;
     }
+
+    public Map <String, Long> getNumberOfTasksInProjects(){
+        Map <String, Long> projects = getProjects();
+        Map<String, Long> projectsWithNumberOfTasks = new HashMap<String, Long>();
+        for (Map.Entry<String,Long> entry : projects.entrySet()) {
+            taskList.stream().filter(t -> t.project.equals(entry.getKey())).forEach(t -> {
+                if(projectsWithNumberOfTasks.containsKey(entry.getKey())){
+                    projectsWithNumberOfTasks.put(entry.getKey(), projectsWithNumberOfTasks.get(entry.getKey())+1);
+                }else{
+                    projectsWithNumberOfTasks.put(entry.getKey(), (long)1);
+                }
+            });
+        }
+        return projectsWithNumberOfTasks;
+    }
 }
