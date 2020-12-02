@@ -32,4 +32,29 @@ public class Statistics {
         }
         return fullTimeOfSubTasks;
     }
+
+    public Map <String, Long> getLoggedTimeForProjects(){
+        Map <String, Long> projects = getProjects();
+        Map<String, Long> projectsWithTime = new HashMap<String, Long>();
+        for (Map.Entry<String,Long> entry : projects.entrySet()){
+            List <Long> tasksForProject = new ArrayList<Long>();
+            long sumTimeOfTasks = 0;
+            taskList.stream().filter(t -> t.project.equals(entry.getKey())).forEach(t->tasksForProject.add(t.id));
+            for(Long id : tasksForProject){
+                sumTimeOfTasks += workLogs.stream().filter(w -> w.taskId == id).mapToLong(w -> w.timeLogged).sum();
+            }
+            projectsWithTime.put(entry.getKey(), sumTimeOfTasks);
+        }
+        return projectsWithTime;
+    }
+
+    public Map<String, Long> getProjects(){
+        Map <String, Long> projects = new HashMap<String, Long>();
+        for(Task task : taskList){
+            if(!projects.containsKey(task.project)){
+                projects.put(task.project, (long) 0);
+            }
+        }
+        return projects;
+    }
 }
