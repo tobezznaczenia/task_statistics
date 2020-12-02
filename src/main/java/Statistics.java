@@ -86,4 +86,23 @@ public class Statistics {
         return userWithLoggedTime;
     }
 
+    public Map<Long, String> getEpicsAndProjects() {
+        Set<Long> epics = getDistinctEpics();
+        Map<Long, String> epicsWithProjects = new HashMap<Long, String>();
+        for (Long id : epics) {
+            String project = taskList.stream().filter(t -> t.id == id).findFirst().get().project;
+            epicsWithProjects.put(id, project);
+        }
+        return epicsWithProjects;
+    }
+
+    public Set<Long> getDistinctEpics(){
+        Set<Long> distinctTasksId = new HashSet<>();
+        for(Task task : taskList){
+            if(task.parent==-1)
+                distinctTasksId.add(task.id);
+        }
+        return distinctTasksId;
+    }
+
 }
