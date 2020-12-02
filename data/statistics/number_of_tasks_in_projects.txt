@@ -1,0 +1,9 @@
+		Projects and tasks
+
+Project name		Number of tasks
+
+A					19
+B					27
+C					26
+D					15
+E					18

@@ -1,0 +1,44 @@
+		Project A
+
+Task id                       Spent time
+15                            35
+32                            2851
+56                            398
+60                            1596
+63                            401
+69                            1971
+		Project B
+
+Task id                       Spent time
+2                             907
+36                            3213
+40                            1660
+75                            1421
+99                            2730
+		Project C
+
+Task id                       Spent time
+14                            1336
+33                            2711
+53                            2498
+70                            1812
+85                            764
+94                            965
+		Project D
+
+Task id                       Spent time
+20                            1671
+52                            1141
+59                            2557
+91                            952
+101                           2028
+		Project E
+
+Task id                       Spent time
+5                             1017
+9                             108
+29                            759
+35                            453
+41                            2328
+67                            958
+81                            791

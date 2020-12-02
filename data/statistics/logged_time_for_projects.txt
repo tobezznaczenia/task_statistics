@@ -1,0 +1,9 @@
+		Projects and spent times
+
+Project name                  Spent time
+
+A                             8911
+B                             4091
+C                             10947
+D                             6245
+E                             5638
