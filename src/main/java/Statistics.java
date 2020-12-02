@@ -72,4 +72,18 @@ public class Statistics {
         }
         return projectsWithNumberOfTasks;
     }
+
+    public Map<String, Long> getUsersLoggedTime(){
+        Map<String, Long> userWithLoggedTime = new HashMap<String, Long>();
+        for(WorkLog workLog : workLogs){
+            if(userWithLoggedTime.containsKey(workLog.author)){
+                userWithLoggedTime.put(workLog.author, (userWithLoggedTime.get(workLog.author)+workLog.timeLogged));
+            }else{
+                userWithLoggedTime.put(workLog.author, workLog.timeLogged);
+            }
+        }
+
+        return userWithLoggedTime;
+    }
+
 }
