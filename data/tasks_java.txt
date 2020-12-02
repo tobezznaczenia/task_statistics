@@ -1,0 +1,632 @@
+[
+    {
+        "category": "Task",
+        "id": 0,
+        "project": "D",
+        "parent": 59
+    },
+    {
+        "category": "Story",
+        "id": 1,
+        "project": "B",
+        "parent": 69
+    },
+    {
+        "category": "Epic",
+        "id": 2,
+        "project": "B",
+        "parent": -1
+    },
+    {
+        "category": "Task",
+        "id": 3,
+        "project": "E",
+        "parent": 36
+    },
+    {
+        "category": "Story",
+        "id": 4,
+        "project": "A",
+        "parent": 20
+    },
+    {
+        "category": "Epic",
+        "id": 5,
+        "project": "E",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 6,
+        "project": "E",
+        "parent": 5
+    },
+    {
+        "category": "Story",
+        "id": 7,
+        "project": "B",
+        "parent": 53
+    },
+    {
+        "category": "Task",
+        "id": 8,
+        "project": "B",
+        "parent": 33
+    },
+    {
+        "category": "Epic",
+        "id": 9,
+        "project": "E",
+        "parent": -1
+    },
+    {
+        "category": "Task",
+        "id": 10,
+        "project": "C",
+        "parent": 59
+    },
+    {
+        "category": "Sub-Task",
+        "id": 11,
+        "project": "E",
+        "parent": 58
+    },
+    {
+        "category": "Story",
+        "id": 12,
+        "project": "D",
+        "parent": 36
+    },
+    {
+        "category": "Sub-Task",
+        "id": 13,
+        "project": "B",
+        "parent": 36
+    },
+    {
+        "category": "Epic",
+        "id": 14,
+        "project": "C",
+        "parent": -1
+    },
+    {
+        "category": "Epic",
+        "id": 15,
+        "project": "A",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 16,
+        "project": "A",
+        "parent": 53
+    },
+    {
+        "category": "Story",
+        "id": 17,
+        "project": "C",
+        "parent": 101
+    },
+    {
+        "category": "Story",
+        "id": 18,
+        "project": "A",
+        "parent": 59
+    },
+    {
+        "category": "Task",
+        "id": 19,
+        "project": "B",
+        "parent": 94
+    },
+    {
+        "category": "Epic",
+        "id": 20,
+        "project": "D",
+        "parent": -1
+    },
+    {
+        "category": "Task",
+        "id": 21,
+        "project": "B",
+        "parent": 59
+    },
+    {
+        "category": "Task",
+        "id": 22,
+        "project": "E",
+        "parent": 60
+    },
+    {
+        "category": "Sub-Task",
+        "id": 23,
+        "project": "C",
+        "parent": 53
+    },
+    {
+        "category": "Story",
+        "id": 24,
+        "project": "C",
+        "parent": 69
+    },
+    {
+        "category": "Story",
+        "id": 25,
+        "project": "C",
+        "parent": 70
+    },
+    {
+        "category": "Story",
+        "id": 26,
+        "project": "A",
+        "parent": 63
+    },
+    {
+        "category": "Story",
+        "id": 27,
+        "project": "D",
+        "parent": 60
+    },
+    {
+        "category": "Story",
+        "id": 28,
+        "project": "A",
+        "parent": 41
+    },
+    {
+        "category": "Epic",
+        "id": 29,
+        "project": "E",
+        "parent": -1
+    },
+    {
+        "category": "Sub-Task",
+        "id": 30,
+        "project": "C",
+        "parent": 8
+    },
+    {
+        "category": "Task",
+        "id": 31,
+        "project": "E",
+        "parent": 36
+    },
+    {
+        "category": "Epic",
+        "id": 32,
+        "project": "A",
+        "parent": -1
+    },
+    {
+        "category": "Epic",
+        "id": 33,
+        "project": "C",
+        "parent": -1
+    },
+    {
+        "category": "Sub-Task",
+        "id": 34,
+        "project": "C",
+        "parent": 28
+    },
+    {
+        "category": "Epic",
+        "id": 35,
+        "project": "E",
+        "parent": -1
+    },
+    {
+        "category": "Epic",
+        "id": 36,
+        "project": "B",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 37,
+        "project": "D",
+        "parent": 52
+    },
+    {
+        "category": "Story",
+        "id": 38,
+        "project": "A",
+        "parent": 32
+    },
+    {
+        "category": "Task",
+        "id": 39,
+        "project": "E",
+        "parent": 52
+    },
+    {
+        "category": "Epic",
+        "id": 40,
+        "project": "B",
+        "parent": -1
+    },
+    {
+        "category": "Epic",
+        "id": 41,
+        "project": "E",
+        "parent": -1
+    },
+    {
+        "category": "Task",
+        "id": 42,
+        "project": "C",
+        "parent": 36
+    },
+    {
+        "category": "Task",
+        "id": 43,
+        "project": "C",
+        "parent": 20
+    },
+    {
+        "category": "Story",
+        "id": 44,
+        "project": "A",
+        "parent": 59
+    },
+    {
+        "category": "Task",
+        "id": 45,
+        "project": "B",
+        "parent": 75
+    },
+    {
+        "category": "Sub-Task",
+        "id": 46,
+        "project": "B",
+        "parent": 99
+    },
+    {
+        "category": "Sub-Task",
+        "id": 47,
+        "project": "A",
+        "parent": 99
+    },
+    {
+        "category": "Story",
+        "id": 48,
+        "project": "C",
+        "parent": 20
+    },
+    {
+        "category": "Story",
+        "id": 49,
+        "project": "D",
+        "parent": 75
+    },
+    {
+        "category": "Task",
+        "id": 50,
+        "project": "B",
+        "parent": 99
+    },
+    {
+        "category": "Story",
+        "id": 51,
+        "project": "E",
+        "parent": 40
+    },
+    {
+        "category": "Epic",
+        "id": 52,
+        "project": "D",
+        "parent": -1
+    },
+    {
+        "category": "Epic",
+        "id": 53,
+        "project": "C",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 54,
+        "project": "D",
+        "parent": 2
+    },
+    {
+        "category": "Sub-Task",
+        "id": 55,
+        "project": "C",
+        "parent": 31
+    },
+    {
+        "category": "Epic",
+        "id": 56,
+        "project": "A",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 57,
+        "project": "A",
+        "parent": 32
+    },
+    {
+        "category": "Story",
+        "id": 58,
+        "project": "B",
+        "parent": 41
+    },
+    {
+        "category": "Epic",
+        "id": 59,
+        "project": "D",
+        "parent": -1
+    },
+    {
+        "category": "Epic",
+        "id": 60,
+        "project": "A",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 61,
+        "project": "B",
+        "parent": 70
+    },
+    {
+        "category": "Story",
+        "id": 62,
+        "project": "C",
+        "parent": 41
+    },
+    {
+        "category": "Epic",
+        "id": 63,
+        "project": "A",
+        "parent": -1
+    },
+    {
+        "category": "Sub-Task",
+        "id": 64,
+        "project": "B",
+        "parent": 57
+    },
+    {
+        "category": "Task",
+        "id": 65,
+        "project": "C",
+        "parent": 101
+    },
+    {
+        "category": "Story",
+        "id": 66,
+        "project": "A",
+        "parent": 101
+    },
+    {
+        "category": "Epic",
+        "id": 67,
+        "project": "E",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 68,
+        "project": "D",
+        "parent": 60
+    },
+    {
+        "category": "Epic",
+        "id": 69,
+        "project": "A",
+        "parent": -1
+    },
+    {
+        "category": "Epic",
+        "id": 70,
+        "project": "C",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 71,
+        "project": "C",
+        "parent": 5
+    },
+    {
+        "category": "Task",
+        "id": 72,
+        "project": "D",
+        "parent": 29
+    },
+    {
+        "category": "Sub-Task",
+        "id": 73,
+        "project": "B",
+        "parent": 24
+    },
+    {
+        "category": "Sub-Task",
+        "id": 74,
+        "project": "C",
+        "parent": 97
+    },
+    {
+        "category": "Epic",
+        "id": 75,
+        "project": "B",
+        "parent": -1
+    },
+    {
+        "category": "Task",
+        "id": 76,
+        "project": "E",
+        "parent": 14
+    },
+    {
+        "category": "Story",
+        "id": 77,
+        "project": "B",
+        "parent": 67
+    },
+    {
+        "category": "Sub-Task",
+        "id": 78,
+        "project": "D",
+        "parent": 19
+    },
+    {
+        "category": "Sub-Task",
+        "id": 79,
+        "project": "C",
+        "parent": 17
+    },
+    {
+        "category": "Story",
+        "id": 80,
+        "project": "E",
+        "parent": 99
+    },
+    {
+        "category": "Epic",
+        "id": 81,
+        "project": "E",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 82,
+        "project": "C",
+        "parent": 91
+    },
+    {
+        "category": "Story",
+        "id": 83,
+        "project": "B",
+        "parent": 99
+    },
+    {
+        "category": "Sub-Task",
+        "id": 84,
+        "project": "B",
+        "parent": 32
+    },
+    {
+        "category": "Epic",
+        "id": 85,
+        "project": "C",
+        "parent": -1
+    },
+    {
+        "category": "Task",
+        "id": 86,
+        "project": "B",
+        "parent": 52
+    },
+    {
+        "category": "Story",
+        "id": 87,
+        "project": "B",
+        "parent": 33
+    },
+    {
+        "category": "Story",
+        "id": 88,
+        "project": "A",
+        "parent": 70
+    },
+    {
+        "category": "Story",
+        "id": 89,
+        "project": "E",
+        "parent": 29
+    },
+    {
+        "category": "Sub-Task",
+        "id": 90,
+        "project": "B",
+        "parent": 42
+    },
+    {
+        "category": "Epic",
+        "id": 91,
+        "project": "D",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 92,
+        "project": "A",
+        "parent": 53
+    },
+    {
+        "category": "Story",
+        "id": 93,
+        "project": "A",
+        "parent": 40
+    },
+    {
+        "category": "Epic",
+        "id": 94,
+        "project": "C",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 95,
+        "project": "E",
+        "parent": 36
+    },
+    {
+        "category": "Task",
+        "id": 96,
+        "project": "B",
+        "parent": 51
+    },
+    {
+        "category": "Story",
+        "id": 97,
+        "project": "C",
+        "parent": 98
+    },
+    {
+        "category": "Sub-Task",
+        "id": 98,
+        "project": "C",
+        "parent": 97
+    },
+    {
+        "category": "Epic",
+        "id": 99,
+        "project": "B",
+        "parent": -1
+    },
+    {
+        "category": "Sub-Task",
+        "id": 100,
+        "project": "D",
+        "parent": 42
+    },
+    {
+        "category": "Epic",
+        "id": 101,
+        "project": "D",
+        "parent": -1
+    },
+    {
+        "category": "Story",
+        "id": 102,
+        "project": "C",
+        "parent": 33
+    },
+    {
+        "category": "Task",
+        "id": 103,
+        "project": "B",
+        "parent": 14
+    },
+    {
+        "category": "Sub-Task",
+        "id": 104,
+        "project": "B",
+        "parent": 104
+    }
+]
